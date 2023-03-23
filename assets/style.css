@@ -1,0 +1,73 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Path: assets/style.css */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Path: assets/style.css */
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Path: assets/style.css */
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 10px 0;
+}
+
+/* Path: assets/style.css */
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 10px 0;
+}
+
+/* Path: assets/style.css */
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+/* Path: assets/style.css */
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+/* Path: assets/style.css */
+h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+/* Path: assets/style.css */
+h6 {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 10px 0;
+}
+
+/* Path: assets/style.css */
+p {
+    margin: 0 0 10px;
+}
+
+
+
+
+
