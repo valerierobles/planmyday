@@ -1,4 +1,6 @@
 # calendarschedule
+This app will help list what events are planned for the day. It will help keep one on track to feel successful with their day. 
+
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
