@@ -74,14 +74,6 @@ function renderText() {
         })
     }
 
-    // TODO: Add code to display the current date in the header of the page.
-    //
-    //var m = moment();
-//var today = moment();
- //   $("#currentDay").text(moment().format("dddd, MMMM Do"));
-
-
-
   
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
@@ -154,7 +146,20 @@ function renderText() {
 
     // TODO: Add code to display the current date in the header of the page.
     //
-  // $("#currentDay").text(moment().format("dddd, MMMM Do"));
+   // Get the current date
+var currentDate = new Date();
+
+// Get the day of the week, month, and day of the month in string format
+var currentDateString = currentDate.toLocaleDateString("en-US", {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+});
+
+// Set the text of the HTML element with the id "currentDay" to the current date
+document.getElementById("currentDay").textContent = currentDateString;
+
+     
 
 
 
